@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: dash
+  name: dash
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dash
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: dash
+    spec:
+      containers:
+        - image: inushin/dash-plotly:latest
+          name: dash
+          ports:
+            - containerPort: 8050
+          resources: {}
+      hostname: dash
+      restartPolicy: Always
+status: {}
