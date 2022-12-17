@@ -67,4 +67,4 @@ If you find any bug or just want to give your feedback (remember the ⭐ ^^), **
 
 ## Version control 📝
 
-- 0.0.0 - Repository created - 18/11/2022
+- [v1.0 - Current](https://github.com/Inushin/kubernetesDashPlotlyGUnicorn/tree/v1.0) - Repository created - 18/11/2022
